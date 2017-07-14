@@ -1,0 +1,204 @@
+body{
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    color: #E0E3DA;
+    background: #1F2124;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+}
+
+/* COMMON CLASSES */
+.highlight{
+    color: #F68657;
+}
+
+#menu-button{
+    position: fixed;
+    z-index: 1;
+    padding: 15px 5px 3px 15px;
+    color: #818181;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+#menu-button:hover{
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+/* SHOWCASE */
+#showcase{
+    background: url('../images/luca-bravo-2.jpg') no-repeat center center;
+    border-bottom: 1px solid #F68657;
+    min-height: 100%;
+    position: relative;
+    margin-bottom: 30px;
+    background-attachment: fixed;
+}
+
+#showcase .row{
+    height: 700px;
+}
+
+#showcase h1{
+    font-size: 90px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+#showcase p{
+    color: #ccc;
+    margin: 0;
+    font-size: 20px;
+}
+
+
+/* GAMES */
+#games{
+    margin-bottom: 20px;
+}
+
+#games h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#games img{
+    border-radius: 5px 5px 0 0;
+}
+
+#games h4{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+#games p{
+    padding: 0 15px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#games .card{
+    background: #1c1c1c;
+    margin: 10px;
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+#games a.button-play{
+    background: #F68657;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.15);
+    margin-bottom: 20px;
+    color: #1F2124;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/* COMPANY */
+#company{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#company h4{
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#company ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+
+#company input[type="text"]{
+    padding: 7px;
+    margin-right: 0;
+}
+
+#company button{
+    background: #222;
+    color: #fff;
+    margin-left: 0;
+    padding: 10px;
+    border: 0;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 900px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .clicable{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 25px;
+    margin-top: 7px;
+    margin-left: 50px;
+}
+
+/* FOOTER */
+#main-footer{
+    background: #F68657;
+    color: #fff;
+}
+
+/* MEDIA QUERIES */
+@media(max-width:800px){
+    #showcase h1{
+        font-size: 80px;
+        padding-bottom: 10px;
+        line-height: 1em;
+    }
+}
