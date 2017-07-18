@@ -93,6 +93,10 @@
 
 /* SITE CSS */
 
+html { 
+    overflow-x: hidden; 
+}
+
 body{
     font-family: 'Open-Sans', sans-serif;
     font-size: 17px;
@@ -182,7 +186,7 @@ img{
 
 /* SHOWCASE */
 #showcase{
-    background: url('../images/background.jpg') no-repeat center center;
+    background: url('../images/ramon-salinero-2710022.jpg') no-repeat center center;
     border-bottom: 1px solid #575757;
     min-height: 100%;
     width: 100%;
@@ -234,13 +238,16 @@ img{
     background: url('../images/caspar-rubin-220711.png') no-repeat;
     background-attachment: fixed;
     padding-bottom: 10px;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    border-bottom: 1px solid #575757;
 }
 
 #games h2{
     font-size: 35px;
     margin: 0;
     margin-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 #games img{
@@ -252,6 +259,15 @@ img{
     font-size: 20px;
     font-weight: 800;
     margin: 15px 0;
+}
+
+#games h6{
+    font-size: 9px;
+    text-transform: uppercase;
+    background: #0b0b0b;
+    border-radius: 4px;
+    display: inline;
+    padding: 6px 8px;
 }
 
 #games p{
@@ -310,11 +326,39 @@ img{
     cursor: not-allowed;
 }
 
+
+/* HISTORY */
+#history{
+    background: url('../images/evgeniy-koryakin-153838.jpg') no-repeat center center;
+    background-attachment: fixed;
+    padding-bottom: 70px;
+    padding-top: 50px;
+    border-bottom: 1px solid #575757;
+}
+
+#history p, #history h2{
+     -webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, .6));
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));
+}
+
+#history h2{
+    font-size: 35px;
+    margin: 0;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+#history p{
+    text-align: justify;
+}
+
 /* TEAM */
 #team{
     background: url('../images/naphtali-marshall-45606.png') no-repeat center center;
     background-attachment: fixed;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 1px solid #575757;
 }
 
 #team h2{
@@ -352,39 +396,29 @@ img{
 }
 
 
-/* COMPANY */
-#company{
+/* CONTACT */
+#contact{
     background: #333;
     color: #fff;
     padding: 10px 0;
+    border-bottom: 1px solid #575757;
 }
 
-#company h4{
+#contact h4{
     text-transform: uppercase;
     margin-bottom: 0;
 }
 
-#company ul{
+#contact ul{
     padding: 0;
     list-style: none;
     line-height: 2em;
 }
 
-#company input[type="text"]{
-    padding: 7px;
-    margin-right: 0;
-}
-
-#company button{
-    background: #222;
-    color: #fff;
-    margin-left: 0;
-    padding: 10px;
-    border: 0;
-}
 
 /* FOOTER */
 #main-footer{
+    font-size: 12px;
     background: #0b0b0b;
     color: #dbdbdb;
 }
