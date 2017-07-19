@@ -195,7 +195,7 @@ img{
 }
 
 #showcase .row-showcase{
-    height: 700px;
+    height: 100vh;
 }
 
 #showcase #logo{
@@ -309,6 +309,12 @@ img{
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 800;
+}
+
+#games .card img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(30%);
+    color: red;
 }
 
 #games .disable-card{
@@ -431,6 +437,5 @@ img{
     }
     #showcase #insomnia{
         width: 80%;
-    }
-    
+    }    
 }
