@@ -186,7 +186,7 @@ img{
 
 /* SHOWCASE */
 #showcase{
-    background: url('../images/ramon-salinero-2710022.jpg') no-repeat center center;
+    background: url('images/ramon-salinero-2710022.jpg') no-repeat center center;
     border-bottom: 1px solid #575757;
     min-height: 100%;
     width: 100%;
@@ -235,7 +235,7 @@ img{
 /* GAMES */
 
 #games{
-    background: url('../images/caspar-rubin-220711.png') no-repeat;
+    background: url('images/caspar-rubin-220711.png') no-repeat;
     background-attachment: fixed;
     padding-bottom: 10px;
     padding-bottom: 100px;
@@ -335,7 +335,7 @@ img{
 
 /* HISTORY */
 #history{
-    background: url('../images/evgeniy-koryakin-153838.jpg') no-repeat center center;
+    background: url('images/evgeniy-koryakin-153838.jpg') no-repeat center center;
     background-attachment: fixed;
     padding-bottom: 70px;
     padding-top: 50px;
@@ -360,7 +360,7 @@ img{
 
 /* TEAM */
 #team{
-    background: url('../images/naphtali-marshall-45606.png') no-repeat center center;
+    background: url('images/naphtali-marshall-45606.png') no-repeat center center;
     background-attachment: fixed;
     padding-bottom: 100px;
     padding-top: 50px;
