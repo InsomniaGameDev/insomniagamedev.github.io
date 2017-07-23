@@ -95,10 +95,10 @@
 
 html { 
     overflow-x: hidden; 
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
-    font-family: 'Open-Sans', sans-serif;
     font-size: 17px;
     line-height: 1.5em;
     margin: 0;
@@ -125,10 +125,10 @@ img{
 #menu-button{
     position: fixed;
     z-index: 1;
-    padding: 10px 5px 3px 10px;
+    padding: 12px 5px 3px 12px;
     opacity: 0.5;
     cursor: pointer;
-    width: 30px;
+    font-size: 25px;
 }
 
 #menu-button:hover{
@@ -158,7 +158,8 @@ img{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    font-weight: 900px;
+    font-style: Bold;
+    font-weight: 700;
     color: #818181;
     display: block;
     transition: 0.3s
@@ -178,7 +179,7 @@ img{
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 15px;
     font-size: 25px;
     margin-top: 7px;
     margin-left: 50px;
@@ -186,7 +187,7 @@ img{
 
 /* SHOWCASE */
 #showcase{
-    background: url('images/ramon-salinero-2710022.jpg') no-repeat center center;
+    background: url('../images/Background/ramon-salinero.jpg') no-repeat center center;
     border-bottom: 1px solid #575757;
     min-height: 100%;
     width: 100%;
@@ -199,7 +200,7 @@ img{
 }
 
 #showcase #logo{
-    width: 150px;
+    width: 180px;
     margin-bottom: 0px;
     -webkit-filter: drop-shadow(0 0 1px rgba(0, 0, 0, .6));
     filter: drop-shadow(0 0 1px rgba(0, 0, 0, .6));
@@ -235,7 +236,7 @@ img{
 /* GAMES */
 
 #games{
-    background: url('images/caspar-rubin-220711.png') no-repeat;
+    background: url('../images/Background/caspar-rubin-220711.png') no-repeat;
     background-attachment: fixed;
     padding-bottom: 10px;
     padding-bottom: 100px;
@@ -335,14 +336,14 @@ img{
 
 /* HISTORY */
 #history{
-    background: url('images/evgeniy-koryakin-153838.jpg') no-repeat center center;
+    background: url('../images/Background/evgeniy-koryakin.png') no-repeat center center;
     background-attachment: fixed;
     padding-bottom: 70px;
     padding-top: 50px;
     border-bottom: 1px solid #575757;
 }
 
-#history p, #history h2{
+#history h2{
      -webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, .6));
     filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));
 }
@@ -360,7 +361,7 @@ img{
 
 /* TEAM */
 #team{
-    background: url('images/naphtali-marshall-45606.png') no-repeat center center;
+    background: url('../images/Background/naphtali-marshall-45606.png') no-repeat center center;
     background-attachment: fixed;
     padding-bottom: 100px;
     padding-top: 50px;
@@ -430,12 +431,25 @@ img{
 }
 
 /* MEDIA QUERIES */
-@media(max-width:800px){    
+@media(max-width:900px){    
     #showcase #logo{
-        width: 30%;
         margin-bottom: 10px;
     }
     #showcase #insomnia{
         width: 80%;
-    }    
+    }   
+    
+    .sidenav a {
+    font-size: 30px;
+    padding: 12px 8px 12px 32px;
+    }
+    
+    .sidenav .closebtn {
+    font-size: 30px;
+    }
+    
+    #menu-button{
+    font-size: 28px;
+    }
+
 }
