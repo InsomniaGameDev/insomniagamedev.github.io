@@ -9,28 +9,74 @@
 <link rel="stylesheet" href="css/flexboxgrid.css">
 <link rel="stylesheet" href="css/font-awesome.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700,800" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="javascript/script.js"></script>
 </head>
     <body>
-        <div id="mySidenav" class="sidenav">
+        
+        <!-- MENU -->
+        <!--<div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
           <a href="#showcase"><i class="fa fa-home clicable"></i>Home</a>
           <a href="#games"><i class="fa fa-gamepad clicable"></i>Jogos</a>
-          <a href="#history"><i class="fa fa-book clicable"></i>História</a>
+          <a href="#about"><i class="fa fa-book clicable"></i>Sobre Nós</a>
           <a href="#team"><i class="fa fa-users clicable"></i>Equipe</a>
           <a href="#contact"><i class="fa fa-address-book clicable"></i>Contato</a>
+        </div>-->
+        
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
+          <a href="#showcase"><i class="fa fa-home clicable"></i></a>
+          <a href="#games"><i class="fa fa-gamepad clicable"></i></a>
+          <a href="#about"><i class="fa fa-book clicable"></i></a>
+          <a href="#team"><i class="fa fa-users clicable"></i></a>
+          <a href="#contact"><i class="fa fa-address-book clicable"></i></a>
         </div>
 
         <span onclick="openNav()" id="menu-button"><i class="fa fa-bars"></i></span>
 
-        
+        <!-- EFEMERO WINDOW -->
         <div id="card-efemero" class="overlay">
             <div class="modal">
-                <div class="close-btn" onclick="closeWindow()"><i class="fa fa-times"></i></div>
-                    <img src="images/jogos/efemero.jpg">
+            <div class="close-btn" onclick="closeWindow()"><i class="fa fa-times"></i></div>
+                <div class="row center-xs center-sm center-md center-lg middle-lg middle-md">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">                    
+                        <div class="slideshow-container">
+                          <div class="mySlides fade" style="display: block;">
+                            <img src="images/jogos/efemero.jpg">
+                          </div>
+
+                          <div class="mySlides fade">
+                            <img src="images/jogos/efemero-start.jpg">
+                          </div>
+
+                          <div class="mySlides fade">
+                            <img src="images/jogos/efemero-deck.jpg">
+                          </div>
+
+                          <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-chevron-left"></i></a>
+                          <a class="next" onclick="plusSlides(1)"><i class="fa fa-chevron-right"></i></a>
+
+                          <div class="dots">
+                              <span class="dot active" onclick="currentSlide(1)"></span> 
+                              <span class="dot" onclick="currentSlide(2)"></span> 
+                              <span class="dot" onclick="currentSlide(3)"></span> 
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
                     <h2>Efêmero</h2>
-                    <p>Efêmero conta a história de um jovem que perdeu a felicidade e não encontra um propósito para seguir em frente, sua vida se tornou monótona e nada que ele faça o faz se sentir bem, e com isso ele descobre que tudo é temporário, e que apenas por um dia ele poderia mudar seu destino.</p> 
-                </div>
+                    <p>Efêmero conta a história de um jovem que perdeu a felicidade e não encontra um propósito para seguir em frente, sua vida se tornou monótona e nada que ele faça o faz se sentir bem, e com isso ele descobre que tudo é temporário, e que apenas por um dia ele poderia mudar seu destino.</p>
+                    <h6>Drama</h6>
+                    <h6>Psicológico</h6>
+                    <h6>Pixel Art</h6>
+                       
+                    <!--<p class="age"><span>10</span> Não recomendado para menores de 10 anos.</p>-->
+                    </div>
+                        
+                    <a class="play-link" href="https://gamejolt.com/">Jogar agora</a>                    
+                </div>    
+            </div>
             </div>
         </div>
 
@@ -66,8 +112,9 @@
                             <img src="images/jogos/efemero.jpg">
                             <h4>Efêmero</h4>
                             <p>A vida é curta, o tempo passa rápido, sentimentos são passageiros e tudo isso é Efêmero.</p>
-                            <h6 class="tag">Drama</h6>
-                            <h6 class="tag">Psicológico</h6>
+                            <h6>Drama</h6>
+                            <h6>Psicológico</h6>
+                            <h6>Pixel Art</h6>
                             <br><br>
                             <a onclick="openWindow()" class="button-play">Saiba mais</a>
 
@@ -94,10 +141,10 @@
                         <br><br>
                         A equipe é formada por cinco integrantes que ainda estão em processo de especialização e desenvolvendo seus primeiros jogos independentes.</p>
                         <br><br>
-                        <h3 class="quote">" Crescer significa mudar e mudar envolve riscos.<br>
+                        <h3 class="quote">"Crescer significa mudar e mudar envolve riscos. <br>
                         É a passagem do conhecido para o desconhecido.<br>
                         O desconhecido assusta qualquer um 
-                        Mas não àqueles que vivem ele."</h3>
+                        Mas não àqueles que vivem-o."</h3>
                         </div>
                     </div>
                 </div>
@@ -111,31 +158,49 @@
                 <div class="row center-xs center-sm center-md center-lg">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <h2>Equipe</h2>
-                        <p></p>
-
                         <div class="row center-xs center-sm center-md center-lg">
                             <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4 person-card">
                             <img src="images/team/carlos.jpg">
-                            <p>Carlos<br> Eduardo</p>
+                            <div class="links">
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
+                            <p>Carlos<br> Eduardo</p>    
                             </div>
 
                             <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4 person-card">
                             <img src="images/team/eduarda.jpg">
+                            <div class="links">
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
                             <p>Eduarda<br> Michaelle</p>
                             </div>
 
                             <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4 person-card">
                             <img src="images/team/elias.jpg">
+                            <div class="links">
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
                             <p>Elias<br> Vaz</p>
                             </div>
 
                             <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4 person-card">
                             <img src="images/team/gelson.jpg">
+                            <div class="links">
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
                             <p>Gelson<br> Higino</p>
                             </div>
 
                             <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4 person-card">
                             <img src="images/team/kelly.jpg">
+                            <div class="links">
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                            </div>
                             <p>Kelly<br> Cristina</p>
                             </div>
 
@@ -171,6 +236,5 @@
             </div>
             </div>
         </footer>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	</body>
 </html>
