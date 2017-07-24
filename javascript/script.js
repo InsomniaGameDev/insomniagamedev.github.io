@@ -11,3 +11,13 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
+
+function openWindow() {
+    "use strict";
+    document.getElementById("card-efemero").style.display = "flex";
+}
+
+function closeWindow() {
+    "use strict";
+    document.getElementById("card-efemero").style.display = "none";
+}

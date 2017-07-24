@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="css/font-awesome.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700,800" rel="stylesheet">
 <script src="javascript/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
     <body>
         <div id="mySidenav" class="sidenav">
@@ -24,6 +23,16 @@
 
         <span onclick="openNav()" id="menu-button"><i class="fa fa-bars"></i></span>
 
+        
+        <div id="card-efemero" class="overlay">
+            <div class="modal">
+                <div class="close-btn" onclick="closeWindow()"><i class="fa fa-times"></i></div>
+                    <img src="images/jogos/efemero.jpg">
+                    <h2>Efêmero</h2>
+                    <p>Efêmero conta a história de um jovem que perdeu a felicidade e não encontra um propósito para seguir em frente, sua vida se tornou monótona e nada que ele faça o faz se sentir bem, e com isso ele descobre que tudo é temporário, e que apenas por um dia ele poderia mudar seu destino.</p> 
+                </div>
+            </div>
+        </div>
 
         <!-- SHOWCASE -->
         <section id="showcase">
@@ -60,7 +69,7 @@
                             <h6 class="tag">Drama</h6>
                             <h6 class="tag">Psicológico</h6>
                             <br><br>
-                            <a id="efemero" class="button-play" >Saiba mais</a>
+                            <a onclick="openWindow()" class="button-play">Saiba mais</a>
 
                             </div>
                             <div class="col-xs-8 col-sm-5 col-md-4 col-lg-3 card disable-card">
@@ -162,6 +171,6 @@
             </div>
             </div>
         </footer>
-        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	</body>
 </html>

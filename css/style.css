@@ -333,14 +333,46 @@ img{
     cursor: not-allowed;
 }
 
-
-#modal{
-    background: #000;
-    width: 100%;
-    height: 100%;
+.overlay{
+    z-index: 3;
     position: fixed;
+    background: rgba(0,0,0,0.5);
+    top: 0;
     left: 0;
-    top 0;
+    right: 0;
+    bottom 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.overlay .modal{
+    position: relative;
+    max-width: 60%;
+    background: #2b2e2e;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
+}
+.overlay .close-btn{
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    top: 5px;
+    right: 10px;
+    font-size: 25px;
+    color: inherit;
+    opacity: 0.5;
+    transition: all 300ms ease-in-out;
+}
+.modal img{
+    width: 300px;
+}
+
+.overlay .close-btn:hover{
+    opacity: 1;
 }
 
 /* HISTORY */
