@@ -1,8 +1,7 @@
+//SMOOTH SCROOLING
 $(document).ready(function () {
     "use strict";
-  // Add smooth scrolling to all links
     $("a").on('click', function (event) {
-
     // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
             // Prevent default anchor click behavior
@@ -43,7 +42,8 @@ function openWindow() {
 function closeWindow() {
     "use strict";
     document.getElementById("card-efemero").style.opacity = "0";
-    document.getElementById("card-efemero").style.visibility = "hidden";
+    setTimeout(function () {
+        document.getElementById("card-efemero").style.visibility = "hidden"; }, 300);
 }
 
 var slideIndex = 1;

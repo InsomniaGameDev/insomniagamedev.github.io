@@ -14,17 +14,7 @@
 <script src="javascript/script.js"></script>
 </head>
     <body>
-        
         <!-- MENU -->
-        <!--<div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
-          <a href="#showcase"><i class="fa fa-home clicable"></i>Home</a>
-          <a href="#games"><i class="fa fa-gamepad clicable"></i>Jogos</a>
-          <a href="#about"><i class="fa fa-book clicable"></i>Sobre Nós</a>
-          <a href="#team"><i class="fa fa-users clicable"></i>Equipe</a>
-          <a href="#contact"><i class="fa fa-address-book clicable"></i>Contato</a>
-        </div>-->
-        
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fa fa-times"></i></a>
           <a href="#showcase"><i class="fa fa-home clicable"></i></a>
@@ -38,6 +28,7 @@
 
         <!-- EFEMERO WINDOW -->
         <div id="card-efemero" class="overlay">
+            <div id="clickOutSide" onclick="closeWindow()"></div>
             <div class="modal">
             <div class="close-btn" onclick="closeWindow()"><i class="fa fa-times"></i></div>
                 <div class="row center-xs center-sm center-md center-lg middle-lg middle-md">
