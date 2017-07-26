@@ -23,6 +23,56 @@ $(document).ready(function () {
     });
 });
 
+//LANDING ITENS
+$(window).scroll(function () {
+    "use strict";
+    var wScroll = $(this).scrollTop();
+    if (wScroll > $('.card').offset().top - ($(window).height() / 1.5)) {
+        $('.card').each(function (i) {
+            setTimeout(function () {
+                $('.card').eq(i).css({
+                    "opacity" : "1",
+                    "-webkit-transform": "translate(0px,0px)",
+                    "-ms-transform": "translate(0px,0px)",
+                    "transform": "translate(0px,0px)"
+                });
+            }, 300 * (i + 1));
+        });
+    }
+});
+
+$(window).scroll(function () {
+    "use strict";
+    var wScroll = $(this).scrollTop();
+    if (wScroll > $('.quote').offset().top - ($(window).height() / 1.5)) {
+        $('.quote').each(function (i) {
+            setTimeout(function () { $('.quote').css({ 
+                "opacity" : "1",
+                "-webkit-transform": "translate(0px,0px)",
+                "-ms-transform": "translate(0px,0px)",
+                "transform": "translate(0px,0px)"
+            }); }, 300 * (i + 1));
+        });
+    }
+});
+
+$(window).scroll(function () {
+    "use strict";
+    var wScroll = $(this).scrollTop();
+    if (wScroll > $('.ch-item').offset().top - ($(window).height() / 1.5)) {
+        $('.ch-item').each(function (i) {
+            setTimeout(function () {
+                $('.ch-item').eq(i).css({
+                    "opacity" : "1",
+                    "-webkit-transform": "translate(0px,0px)",
+                    "-ms-transform": "translate(0px,0px)",
+                    "transform": "translate(0px,0px)"
+                });
+            }, 300 * (i + 1));
+        });
+    }
+});
+
 function openNav() {
     "use strict";
     document.getElementById("mySidenav").style.width = "65px";
@@ -43,7 +93,8 @@ function closeWindow() {
     "use strict";
     document.getElementById("card-efemero").style.opacity = "0";
     setTimeout(function () {
-        document.getElementById("card-efemero").style.visibility = "hidden"; }, 300);
+        document.getElementById("card-efemero").style.visibility = "hidden";
+    }, 300);
 }
 
 var slideIndex = 1;
