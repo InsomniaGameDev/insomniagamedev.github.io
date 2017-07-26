@@ -213,6 +213,7 @@ img{
 /* SHOWCASE */
 #showcase{
     background: url('../images/Background/alexander-possingham-282185.jpg') no-repeat center center;
+    height: 100%;
     border-bottom: 1px solid #575757;
     min-height: 100%;
     width: 100%;
@@ -265,6 +266,7 @@ img{
 #games{
     background: url('../images/Background/ben-neale-297658.jpg') no-repeat center;
     background-attachment: fixed;
+    height: 100%;
     padding-bottom: 10px;
     padding-bottom: 100px;
     padding-top: 40px;
@@ -512,6 +514,7 @@ img{
 /* HISTORY */
 #about{
     background: url('../images/Background/caspar-rubin-220711.jpg') no-repeat center center;
+    height: 100%;
     background-attachment: fixed;
     padding-bottom: 100px;
     padding-top: 100px;
@@ -542,6 +545,7 @@ img{
 /* TEAM */
 #team{
     background: url('../images/Background/naphtali-marshall-45606.jpg') no-repeat center center;
+    height: 100%;
     background-attachment: fixed;
     padding-bottom: 100px;
     padding-top: 50px;
@@ -663,11 +667,12 @@ img{
 }
 
 #team .links{
+    font-size: 18px;
     margin: 5px auto;
 }
 
 
-.links a{ 
+.links i{ 
     color: #dbdbdb;
     margin: 0 3px;
     font-size: 23px;
@@ -755,5 +760,23 @@ img{
         color: inherit;
         margin: 5px -14px -32px -14px;
         
+    }
+    
+    #team .ch-grid li {
+        width: 180px;
+        height: 180px;
+    }
+    
+    #team .ch-info h3 {
+        font-size: 18px;
+        padding: 20px 0 0 0;
+    }
+    
+    #team .ch-info p {
+	padding: 0px 0px 2px 0px;
+	}
+    
+    .links i{
+    font-size: 18px;
     }
 }
