@@ -95,14 +95,7 @@ body{
     margin: 0;
     padding: 0;
     color: #E0E3DA;
-    background: #1F2124;
-    background-repeat: no-repeat; 
-    background-position: center;
-    background-attachment: fixed;       
-    webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+    background: #1F2124; 
 }
 
 img{
@@ -178,13 +171,17 @@ img{
 
 /* SHOWCASE */
 #showcase{
-    background: url('http://insomniagamedev.github.io/images/Background/alexander-possingham-282185.jpg') no-repeat center center;
-    height: 100%;
+    background: url('http://insomniagamedev.github.io/images/Background/alexander-possingham-282185.jpg');
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
     border-bottom: 1px solid #575757;
     min-height: 100%;
     width: 100%;
     position: relative;
-    background-attachment: fixed;
 }
 
 #showcase .row-showcase{
@@ -230,9 +227,13 @@ img{
 /* GAMES */
 
 #games{
-    background: url('http://insomniagamedev.github.io/images/Background/ben-neale-297658.jpg') no-repeat center;
-    background-attachment: fixed;
-    height: 100%;
+    background: url('http://insomniagamedev.github.io/images/Background/ben-neale-297658.jpg');
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-bottom: 10px;
     padding-bottom: 100px;
     padding-top: 40px;
@@ -479,9 +480,13 @@ img{
 
 /* HISTORY */
 #about{
-    background: url('http://insomniagamedev.github.io/images/Background/caspar-rubin-220711.jpg') no-repeat center center;
-    height: 100%;
-    background-attachment: fixed;
+    background: url('http://insomniagamedev.github.io/images/Background/caspar-rubin-220711.jpg');
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
     padding-bottom: 100px;
     padding-top: 100px;
     border-bottom: 1px solid #575757;
@@ -510,9 +515,13 @@ img{
 
 /* TEAM */
 #team{
-    background: url('http://insomniagamedev.github.io/images/Background/naphtali-marshall-45606.jpg') no-repeat center center;
-    height: 100%;
-    background-attachment: fixed;
+    background: url('http://insomniagamedev.github.io/images/Background/naphtali-marshall-45606.jpg');
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
     padding-bottom: 100px;
     padding-top: 50px;
     border-bottom: 1px solid #575757;
