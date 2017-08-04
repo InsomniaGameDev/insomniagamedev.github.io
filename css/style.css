@@ -189,26 +189,10 @@ img{
 }
 
 #showcase #logo{
-    width: 180px;
+    width: 40vw;
     margin-bottom: 0px;
     -webkit-filter: drop-shadow(0 0 1px rgba(0, 0, 0, .6));
     filter: drop-shadow(1px 0 3px rgba(0, 0, 0, .6));
-}
-
-#showcase h1{
-    margin-top: 60px;
-    font-family: 'Josefin Slab', serif;
-    font-weight: 400;
-    font-size: 150px;
-    -webkit-filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, .6));
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));
-}
-
-#showcase p{
-    color: #dbdbdb;
-    margin: 0;
-    font-size: 20px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
 }
 
 #showcase .fa-chevron-down{
@@ -684,18 +668,10 @@ img{
 }
 
 /* MEDIA QUERIES */
-@media(max-width:700px){    
+@media (max-width:700px){    
     #showcase #logo{
-        margin-bottom: 10px;
-    }
-    
-    #showcase h1{
-        font-size: 21vw;
-    }
-    
-    #showcase #insomnia{
-        width: 80%;
-    }  
+        width: 70vw;
+    } 
     
     #menu-button{
     font-size: 28px;
@@ -736,21 +712,25 @@ img{
     }
     
     #team .ch-grid li {
-        width: 180px;
-        height: 180px;
+        width: 120px;
+        height: 120px;
     }
     
     #team .ch-info h3 {
-        font-size: 18px;
-        padding: 20px 0 0 0;
-    }
+	font-size: 10px;
+	margin: 0 10px;
+	padding: 30px 0 0 0;
+	height: 30px;
+    line-height: 12px;
+}
     
     #team .ch-info p {
-	padding: 0px 0px 2px 0px;
+	margin: auto;
+    line-height: 10px;
 	}
     
     .links i{
-    font-size: 18px;
+    display: none;
     }
     
     #main-fotter h3{
