@@ -171,7 +171,8 @@ img{
 
 /* SHOWCASE */
 #showcase{
-    background: url('http://insomniagamedev.github.io/images/Background/alexander-possingham-282185.jpg');
+    background: url('../images/Background/alexander-possingham-282185.jpg');
+    object-fit: cover;
     background-position: center;
     background-attachment: fixed;       
     webkit-background-size: cover;
@@ -211,7 +212,8 @@ img{
 /* GAMES */
 
 #games{
-    background: url('http://insomniagamedev.github.io/images/Background/ben-neale-297658.jpg');
+    background: url('../images/Background/ben-neale-297658.jpg');
+    object-fit: cover;
     background-position: center;
     background-attachment: fixed;       
     webkit-background-size: cover;
@@ -464,7 +466,8 @@ img{
 
 /* HISTORY */
 #about{
-    background: url('http://insomniagamedev.github.io/images/Background/caspar-rubin-220711.jpg');
+    background: url('../images/Background/caspar-rubin-220711.jpg');
+    object-fit: cover;
     background-position: center;
     background-attachment: fixed;       
     webkit-background-size: cover;
@@ -499,7 +502,8 @@ img{
 
 /* TEAM */
 #team{
-    background: url('http://insomniagamedev.github.io/images/Background/naphtali-marshall-45606.jpg');
+    background: url('../images/Background/naphtali-marshall-45606.jpg');
+    object-fit: cover; 
     background-position: center;
     background-attachment: fixed;       
     webkit-background-size: cover;
