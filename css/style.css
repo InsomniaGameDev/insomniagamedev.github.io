@@ -85,7 +85,8 @@
 /* SITE CSS */
 
 html { 
-    overflow-x: hidden; 
+    overflow-y: scroll;
+    overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
 }
 
