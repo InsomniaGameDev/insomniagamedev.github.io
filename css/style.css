@@ -172,7 +172,7 @@ img{
 
 /* SHOWCASE */
 #showcase{
-    background: url('../images/Background/alexander-possingham-282185.jpg');
+    background: url('../images/Background/dustin-lee-19666.jpg');
     object-fit: cover;
     background-position: center;
     background-attachment: fixed;       
@@ -679,8 +679,8 @@ img{
     font-size: 28px;
     }
     
-    #team .links a{
-        font-size: 30px;    
+    .overlay .modal{
+    max-width: 70%;
     }
     
     .prev, .next {
@@ -697,7 +697,7 @@ img{
         margin-top: -10px;
         margin-bottom: 5px;
         line-height: 120%;
-        font-size: 12px;
+        font-size: .8em;
     }
     
     .overlay h6{
@@ -713,26 +713,16 @@ img{
         
     }
     
-    #team .ch-grid li {
-        width: 120px;
-        height: 120px;
-    }
-    
     #team .ch-info h3 {
-	font-size: 10px;
-	margin: 0 10px;
+	font-size: 13px;
+	margin: 50px 10px 0px 10px;
 	padding: 30px 0 0 0;
 	height: 30px;
-    line-height: 12px;
-}
+    line-height: 20px;
+    }
     
-    #team .ch-info p {
-	margin: auto;
-    line-height: 10px;
-	}
-    
-    .links i{
-    display: none;
+    #team .links i{
+        font-size: 30px;
     }
     
     #main-fotter h3{
